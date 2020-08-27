@@ -5,6 +5,16 @@
     font-family: 'Acme', sans-serif;
 }
 
+a:hover {
+    color: black;
+  }
+
+a{
+    background-color: #982020;
+    color: #262121;
+    font-family: 'Acme', sans-serif;
+}
+
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
