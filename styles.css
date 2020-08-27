@@ -1,0 +1,54 @@
+.banner, 
+.navbar{
+    background-color: #982020;
+    color: #262121;
+    font-family: 'Acme', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a.nav-link{
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Acme', sans-serif;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 4rem;
+    color:#262121;
+}
+
+h3{
+    font-family: 'Acme', sans-serif;
+    font-size: 2.5rem;
+    color:#262121;
+}
+
+table{
+    background-color: #CC6464;
+    font-size: 1.5rem;
+    border-color: black;
+}
+
+img{
+    background-color: #CC6464;
+}
+
+.png{
+    background-color:  #982020;
+}
+
