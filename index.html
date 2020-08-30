@@ -18,8 +18,13 @@
     <!--En general funciona bien a excepción de lo estético, los colores escogidos hacen que sea pesado leer el contenido, por eso quité el rojo de fondo de todo lo que pude, revisar los marcos de los jpgs-->
 
     <body>
+
+        <!--Cambiar el color de fondo-->
+        <div class="container-fluid" style="background-color:#982020;">
+
         <!--Color de fondo POR FAVOR-->
         <div class="container-fluid bg-light">
+
             
             <div class="row align-items-center">
                 <!--Creo que con solo haber puesto "col-sm-2" es suficiente también para md, ya que no cambia, pero en xl debería desaparecer para que no se vea su nombre sin centrar-->
@@ -103,26 +108,37 @@
                         What About my Education?
                     </h2>
                 </div>
-                <div class="col text-center">
-                    <img src="imgs/csc.jpg" class="rounded image-fluid shadow-sm p-3 mb-5" alt="school">
+                <!--Se puede separar el titulo de lo demas en diferentes rows de forma que el texto no se crezca-->
+                <div class="row align-items-center">
+                    <!--Ponerle tamaños de forma que sea responsive -->
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center"></div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-xs-5 text-center">
+                        <img src="imgs/csc.jpg" class="img-fluid" alt="school">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-xs-5 text-center"><br>
+                        <p>
+                            <!--Buscar como hacer el texto responsive-->
+                            I studied for 12 at San Carlos School in Bogotá. This school is very
+                            special to me for all it has taught me, and because I met my best friends
+                            there.
+                        </p>
+                    </div>
                 </div>
-                <div class="col text-center"><br>
-                    <p>
-                        I studied for 12 at San Carlos School in Bogotá. This school is very
-                        special to me for all it has taught me, and because I met my best friends
-                        there.
-                    </p>
-                </div>
-                <div class="col text-center">
-                    <img src="imgs/andes.jpg" class="rounded image-fluid shadow-sm p-3 mb-5" height="427px" width="640" alt="uni">
-                </div>
-                <div class="col text-center"><br>
-                    <p>
-                        I currently study at Universidad de los Andes, one of the best rated universities
-                        of the country. I study Computer Science, currently coursing my seventh semester out of eight.
-                        The time I've spent on this campus, I feel like I've grown a lot as a person. I've met incredible
-                        people, incredible teachers and made amazing friends.
-                    </p>
+                <div class="row align-items-center">
+                    <!--Ponerle tamaños de forma que sea responsive -->
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center"></div>
+                    <div class="col-xl-5 col-lg-6 col-md-6 col-sm-5 col-xs-5 text-center">
+                        <img src="imgs/andes.jpg" class="img-fluid"  alt="uni">
+                    </div>
+                    <div class="col-xl-5 col-lg-4 col-md-4 col-sm-5 col-xs-5 text-center"><br>
+                        <!--Buscar como hacer el texto responsive-->
+                        <p>
+                            I currently study at Universidad de los Andes, one of the best rated universities
+                            of the country. I study Computer Science, currently coursing my seventh semester out of eight.
+                            The time I've spent on this campus, I feel like I've grown a lot as a person. I've met incredible
+                            people, incredible teachers and made amazing friends.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="row align-items-center" id="interes">
