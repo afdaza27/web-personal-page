@@ -1,8 +1,18 @@
+
+/* El código css es legible y se entiende cual es el proposito de este */
+
+.banner, 
+.navbar{
+    background-color: #982020;
+    color: #262121;
+    font-family: 'Acme', sans-serif;
+
 /* De nuevo el color */
 .banner,
 .navbar {
   color: #262121;
   font-family: "Acme", sans-serif;
+
 }
 
 a:hover {
