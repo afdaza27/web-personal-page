@@ -8,16 +8,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans&display=swap" rel="stylesheet"> 
         <meta charset="utf-8">
     </head>
+    <!--En general funciona bien a excepción de lo estético, los colores escogidos hacen que sea pesado leer el contenido, por eso quité el rojo de fondo de todo lo que pude, revisar los marcos de los jpgs-->
     <body>
-        <div class="container-fluid" style="background-color:#982020;">
+        <!--Color de fondo POR FAVOR-->
+        <div class="container-fluid bg-light">
             
             <div class="row align-items-center">
+                <!--Creo que con solo haber puesto "col-sm-2" es suficiente también para md, ya que no cambia, pero en xl debería desaparecer para que no se vea su nombre sin centrar-->
                 <div class="col-sm-2 col-md-2 col-xl-2 container-fluid">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a href="#navigation" data-toggle="collapse"><button class="navbar-toggler" type="button">
                           <span class="navbar-toggler-icon"></span>
                         </button></a>
                 </div>
+                <!--De nuevo creo que es redundante darle el mismo valor a todos los "col"-->
                 <div class="col-sm-10 col-md-10 col-xl-10 banner text-center">
                     <h1>Andrés Felipe Daza Díaz</h1><hr>
                 </div>
