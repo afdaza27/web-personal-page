@@ -1,3 +1,4 @@
+
 /* El código css es legible y se entiende cual es el proposito de este */
 
 .banner, 
@@ -5,62 +6,65 @@
     background-color: #982020;
     color: #262121;
     font-family: 'Acme', sans-serif;
+
+/* De nuevo el color */
+.banner,
+.navbar {
+  color: #262121;
+  font-family: "Acme", sans-serif;
+
 }
 
 a:hover {
-    color: black;
-  }
-
-a{
-    background-color: #982020;
-    color: #262121;
-    font-family: 'Acme', sans-serif;
+  color: black;
 }
 
-p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
+/*Color rojo*/
+a {
+  color: #262121;
+  font-family: "Acme", sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
 }
 
-a.nav-link{
-    font-family: 'Acme', sans-serif;
-    font-size: 2rem;
+html {
+  scroll-behavior: smooth;
 }
 
-h1{
-    font-size: 5rem;
-    font-family: 'Acme', sans-serif;
+a.nav-link {
+  font-family: "Acme", sans-serif;
+  font-size: 2rem;
 }
 
-h2{
-    font-family: 'Acme', sans-serif;
-    font-size: 4rem;
-    color:#262121;
+h1 {
+  font-size: 5rem;
+  font-family: "Acme", sans-serif;
 }
 
-h3{
-    font-family: 'Acme', sans-serif;
-    font-size: 2.5rem;
-    color:#262121;
+h2 {
+  font-family: "Acme", sans-serif;
+  font-size: 4rem;
+  color: #262121;
 }
 
-table{
-    background-color: #CC6464;
-    font-size: 1.5rem;
-    border-color: black;
+h3 {
+  font-family: "Acme", sans-serif;
+  font-size: 2.5rem;
+  color: #262121;
 }
 
-img{
-    background-color: #CC6464;
+table {
+  background-color: #cc6464;
+  font-size: 1.5rem;
+  border-color: black;
 }
-
-.png{
-    background-color:  #982020;
+/*Queda bien en algunas, pero no en todas, debería revisar cuáles y utilizarlos con id en vez de generalizar a todas las imágenes*/
+img {
+  background-color: #cc6464;
 }
-
+/*Color!!!*/
